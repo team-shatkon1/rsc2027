@@ -2,7 +2,7 @@ import React from "react";
 
 const Patrons = () => {
     const patronsDetails = [
-        { id: 0, name: "Prof. Dr. S. S. Rathod", post: "Director", info: "Walchand College of Engineering, Sangli" },
+        { id: 0, name: "Prof. Dr. Surendra S. Rathod", post: "Director", info: "Walchand College of Engineering, Sangli" },
         { id: 1, name: "Mr. Amol Chavan", post: "Member, Admin Council", info: "Walchand College of Engineering, Sangli" },
     ];
 

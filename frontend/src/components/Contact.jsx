@@ -1,12 +1,11 @@
 import React from 'react';
-import { FaPhone, FaLocationDot, FaEnvelope } from "react-icons/fa6";
+import { FaPhone, FaLocationDot, FaEnvelope, FaGlobe } from "react-icons/fa6";
 
 const Contact = () => {
 	const contacts = [
-		{ name: "Ms. P. D. Mundada", role: "Coordinator", phone: "7083818238" },
-		{ name: "Ms. N. L. Mudegol", role: "Organizing Committee", phone: "9359644838" },
-		{ name: "Ms. M. B. Shinde", role: "Organizing Committee", phone: "9970968078" },
+		{ name: "Mr. H. R. Chandoba", role: "Organizing Committee", phone: "8007916440" },
 		{ name: "Ms. A. B. Patil", role: "Organizing Committee", phone: "7758998115" },
+		{ name: "Mr. S. V. Kulkarni", role: "Organizing Committee", phone: "8329391723" },
 	];
 
 	return (
@@ -64,19 +63,26 @@ const Contact = () => {
 									wceacmsc@gmail.com
 								</a>
 							</div>
+
+							<div className="flex items-center space-x-3 text-gray-800">
+								<FaGlobe className="text-blue-600 flex-shrink-0" size={16} />
+								<a href="https://rsc.wce.ac.in/" target="_blank" rel="noopener noreferrer" className="text-sm text-blue-700 hover:underline font-semibold">
+									https://rsc.wce.ac.in/
+								</a>
+							</div>
 						</div>
 
 						<div className="bg-white/70 backdrop-blur-md p-6 rounded-2xl border border-gray-200/80 shadow-sm mt-4">
 							<h4 className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-3">
-								Event Coordinators
+								Event Coordinators & Contact
 							</h4>
-							<div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+							<div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
 								{contacts.map((c, i) => (
 									<div key={i} className="flex items-center gap-2.5 p-2.5 rounded-lg bg-gray-50 border border-gray-100">
 										<FaPhone className="text-blue-600 text-xs flex-shrink-0" />
 										<div className="text-xs">
 											<div className="font-bold text-gray-900">{c.name}</div>
-											<a href={`tel:${c.phone}`} className="text-blue-600 hover:underline">
+											<a href={`tel:${c.phone}`} className="text-blue-600 hover:underline font-semibold">
 												+91 {c.phone}
 											</a>
 										</div>

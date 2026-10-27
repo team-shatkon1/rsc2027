@@ -7,8 +7,10 @@ const OrganizingCommittee = () => {
         { id: 3, name: "Ms. N. L. Mudegol", post: "Department of CSE", info: "WCE Sangli" },
         { id: 4, name: "Mr. K. S. Khandagle", post: "Department of CSE", info: "WCE Sangli" },
         { id: 5, name: "Mr. H. R. Chandoba", post: "Department of CSE", info: "WCE Sangli" },
-        { id: 6, name: "Ms. M. B. Shinde", post: "Department of IT", info: "WCE Sangli" },
-        { id: 7, name: "Ms. A. B. Patil", post: "Department of IT", info: "WCE Sangli" },
+        { id: 6, name: "Mr. M. G. Rathi", post: "Department of IT", info: "WCE Sangli" },
+        { id: 7, name: "Mr. S. V. Kulkarni", post: "Department of IT", info: "WCE Sangli" },
+        { id: 8, name: "Ms. S. S. Solapure", post: "Department of IT", info: "WCE Sangli" },
+        { id: 9, name: "Ms. A. B. Patil", post: "Department of AI&ML", info: "WCE Sangli" },
     ];
 
     return (
@@ -24,7 +26,7 @@ const OrganizingCommittee = () => {
                 Organizing Committee
             </h1>
             <div
-                className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"
+                className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
             >
                 {committeeMembers.map((person) => (
                     <div

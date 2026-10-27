@@ -12,7 +12,7 @@ const ChairCoordinator = () => {
                         Chair
                     </h2>
                     <div className="p-6 bg-white/70 backdrop-blur-md rounded-2xl border border-gray-200 shadow-sm flex flex-col justify-center gap-1 text-black text-center">
-                        <p className="text-blue-700 text-lg font-bold leading-tight">Dr. Mrs. Medha A. Shah</p>
+                        <p className="text-blue-700 text-lg font-bold leading-tight">Dr. Medha A. Shah</p>
                         <p className="text-sm font-semibold text-gray-800">Associate Professor, Dean CAS</p>
                         <p className="text-xs text-gray-600">Walchand College of Engineering, Sangli</p>
                     </div>
