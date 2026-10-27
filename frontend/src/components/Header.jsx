@@ -19,7 +19,7 @@ const Header = () => {
                     id="year"
                     className="text-2xl font-black lg:text-4xl text-white tracking-wider"
                 >
-                    11 MARCH 2027 <span className="text-sm font-bold text-amber-300 uppercase tracking-normal px-2.5 py-0.5 bg-amber-500/20 rounded-full border border-amber-400/30">Tentative</span>
+                    11 MARCH 2027
                 </div>
                 <div
                     id="tagline"
